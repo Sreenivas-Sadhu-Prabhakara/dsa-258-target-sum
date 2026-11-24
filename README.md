@@ -12,6 +12,13 @@ Let P be the sum of the numbers given +, N the sum given −. Then P − N = tar
 
 **Complexity:** O(n · (total+target)/2) time, O(goal) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
